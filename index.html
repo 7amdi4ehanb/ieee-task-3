@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task-3</title>
+</head>
+<body>
+  <table border="1">
+    <tbody>
+      <tr>
+        <td>
+          <p>This is paragraph one</p>
+          <p>This is paragraph two</p>
+        </td>
+        <td>
+          <img src="html.png" alt="" width="200px">
+        </td>
+        <td>
+          <h3>this is iframe</h3>
+          <iframe src="https//www.wikipedia.org/" frameborder="1"></iframe>
+        </td>
+        <td rowspan="2">
+          <video src="html.mp4" controls poster="html.png" width="200px"></video>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <audio src="1.mp3" muted controls></audio>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <form action="Thankyou.html">
+    <label for="fname">First Name</label>
+    <input type="text" name="fname" id="fname" placeholder="Enter Your first name">
+    <br><br>
+    <label for="lname">First Name</label>
+    <input type="text" name="lname" id="lname" placeholder="Enter Your last name">
+    <br><br>
+    <label for="pass">Password</label>
+    <input type="password" name="pass" id="pass" placeholder="Enter Your password">
+    <br><br>
+    <label for="rpass">Repeat Password</label>
+    <input type="password" name="rpass" id="rpass" placeholder="repeat password">
+    <br><br>
+    <label for="pic">Your Picture</label>
+    <input type="file" name="pic" id="pic">
+    <br><br>
+    <fieldset>
+      <legend>Gender</legend>
+      <input type="radio" id="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female">
+      <label for="female">Female</label>
+    </fieldset>
+    <br>
+    <label for="faculty">Choose a faculty</label>
+    <select name="faculty" id="faculty">
+      <option value="Computer Science">Computer Science</option>
+      <option value="Engineering">Engineering</option>
+    </select>
+    <br><br>
+    <fieldset>
+      <legend>Interests</legend>
+      <input type="checkbox" id="Programming" name="Programming">
+      <label for="Programming">Programming</label>
+      <br><br>
+      <input type="checkbox" id="Reading" name="Reading">
+      <label for="Reading">Reading</label>
+      <br><br>
+      <input type="checkbox" id="Swimming" name="Swimming">
+      <label for="Swimming">Swimming</label>
+    </fieldset>    
+    <br><br>
+    <label for="about">About Me</label>
+    <textarea name="about" id="about"></textarea>
+    <br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+  </form>
+</body>
+</html>
